@@ -58,7 +58,7 @@ li {
 
 .content {    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 1280px;    
     margin: auto;
@@ -66,13 +66,20 @@ li {
 
 .context-text-h1 {
     font-size: 24px;
-    color: #838181;
+    color: #4f4f4f;
     margin-top: 10px;
+}
+
+.slide img {  
+    height: 70px;  
+    box-sizing: content-box;   
 }
 
 h2 {
     text-align: center;
-    color: #838181;
+    color: #4f4f4f;
 }
+
+
 
 
