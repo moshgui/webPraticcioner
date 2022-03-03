@@ -1,24 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
 body {
+    width: 100%;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     color: #fff;
+    margin: 0;
+    background-image: url('/Form2/img/survey-form-background.jpeg');  
+    align-items: center;
 }
 
 #content {
-    background-color: #282848;
-    opacity: 5;
+    width: 600px;
+    display: block;
+    background-color: rgba(27, 27, 50, 0.8);    
+    margin: auto;
+    padding: 50px;
 }
 
-input {
+.group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+select {
     border-radius: 2px;
     border-style: none;
+    box-sizing: border-box;
+    outline: none;    
+    font-size: 15px;
+    color: #979dac;  
+    height: 40px;  
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+::placeholder, select {
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 button {
+    margin: 0;
     background-color: #37af65;
     color: #fff;
     border-style: none;
     border-radius: 2px;
     font-weight: bold;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.input-text {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 120px;    
+    resize: vertical;
+    outline: none;
 }
