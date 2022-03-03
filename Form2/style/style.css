@@ -7,21 +7,24 @@ body {
     font-size: 18px;
     color: #fff;
     margin: 0;
-    background-image: url('/Form2/img/survey-form-background.jpeg');  
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), 
+    url('/Form2/img/survey-form-background.jpeg');
+    background-attachment: fixed;
     align-items: center;
 }
 
 #content {
     width: 600px;
     display: block;
-    background-color: rgba(27, 27, 50, 0.8);    
+    background-color: rgba(27, 27, 50, 0.8);
     margin: auto;
     padding: 50px;
 }
 
-.group {
-    margin-top: 10px;
+.group {    
     margin-bottom: 10px;
+    line-height: 1.4;
+    box-sizing: border-box;
 }
 
 input[type=text],
@@ -31,16 +34,17 @@ select {
     border-radius: 2px;
     border-style: none;
     box-sizing: border-box;
-    outline: none;    
+    outline: none;
     font-size: 15px;
-    color: #979dac;  
-    height: 40px;  
+    color: #6c757d;
+    height: 40px;
     margin-bottom: 15px;
     margin-top: 5px;
-    width: 100%;
+    width: 100%;   
 }
 
-::placeholder, select {
+::placeholder,
+select {
     padding-left: 5px;
     font-family: 'Poppins', sans-serif;
 }
@@ -60,7 +64,13 @@ button {
 .input-text {
     box-sizing: border-box;
     width: 100%;
-    min-height: 120px;    
+    min-height: 120px;
     resize: vertical;
     outline: none;
+}
+
+@media (max-width: 767px), (max-height: 440px) {
+    body {
+        min-width: 320px;
+    }
 }
