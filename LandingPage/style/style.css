@@ -2,9 +2,118 @@
 
 body {
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'League Spartan', sans-serif;
+    background-color: #f8f9fa;
+    width: 1366px;
+    min-height: 100vh;
 }
 
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    box-sizing: content-box;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    font-weight: 600;
+    color: #B73575;
+}
+
+.menu a:hover {
+    background-color: #B73575;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.content {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    height: 300px;
+}
+
+.content h1 {
+    font-size: 50px;
+    box-sizing: content-box;
+    color: #B73575;
+}
+
+.content p {
+    font-size: 35px;
+    padding-top: 20px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B73575;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product {
+    display: inline-block;
+    width: 260px;
+    box-sizing: content-box;
+    border: solid 1px #dedede;
+    background-color: #dedede;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.product h2 {
+    text-align: center;
+    color: #B73575;
+
+}
+
+.product p {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-height: 50%;
 }
