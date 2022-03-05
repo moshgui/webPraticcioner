@@ -19,7 +19,7 @@ header {
 }
 
 .logo img {
-    height: 100px;
+    height: 80px;
 }
 
 .menu ul {
@@ -42,16 +42,13 @@ header {
     transition: 1s;
 }
 
-.content {
-    margin-top: 50px;
+.content {    
     display: block;
-    text-align: center;
-    height: 300px;
+    text-align: center;      
 }
 
 .content h1 {
-    font-size: 50px;
-    box-sizing: content-box;
+    font-size: 50px;    
     color: #B73575;
 }
 
@@ -92,9 +89,8 @@ button:hover {
 .product {
     display: inline-block;
     width: 350px;
-    box-sizing: content-box;
-    border: solid 1px #dedede;
-    background-color: #dedede;
+    box-sizing: content-box;    
+    background-color: #e9ecef;
     border-radius: 10px;
     margin-top: 50px;
 }
