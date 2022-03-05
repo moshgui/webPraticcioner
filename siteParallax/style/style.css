@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); 
+
+body {
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+
+.cover {
+    margin: 0;
+    height: 1080px;
+    background-image: url('/siteParallax/img/image1.jpg');
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 18px;
+}
+
+.one {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.cover-two {
+    background-image: url('/siteParallax/img/image2.jpg');
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.two {
+    background-color: #282E34;
+    color: #fff;
+}
+
+.cover-three {
+    background-image: url('/siteParallax/img/image3.jpg');
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.section-text {
+    padding: 50px;
+    font-weight: 500;
+}
