@@ -24,6 +24,7 @@ p {
     font-weight: 400;
     font-size: 20px;
     color: #adb5bd;
+    padding: 0 20px;
 }
 
 .content {
@@ -52,3 +53,4 @@ p {
 a {
     text-decoration: none;
 }
+
