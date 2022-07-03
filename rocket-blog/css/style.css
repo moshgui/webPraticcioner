@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #290742;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 12em;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    gap: 4em;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #9e6dc2;
+}
+
+div.search-input {
+    display: flex;
+    align-items: center;
+}
+
+div.search-input img {
+    width: 40px;
+    background-color: #9e6dc2;
+}
+
+div.content {
+    display: flex;
+    padding: 1em 12em 4em 12em;
+}
+
+div.principal-text,
+div.content-img {
+    width: 50%;
+}
+
+section.post-blog {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4em 12em;
+    background-color: #fbf6ff;
+}
+
+div.content-img img,
+div.post-one img,
+div.gallery-content img {
+    width: 100%;
+}
+
+section.post-one {
+    width: 50%;
+}
+
+aside {
+    padding-left: 10em;
+}
+
+aside.blog-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.gallery {
+    width: 100%;
+    background-color: #fbf6ff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 12em;
+}
+
+h1 {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    color: #9e6dc2;
+    font-size: 3em;
+}
+
+#cta {
+    color: #9e6dc2;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;    
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: #290742;
+}
+
+h3.destaque {
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+legend {
+    margin-top: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.principal {
+    width: 75%;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+input[type=search] {
+    background-color: #170027;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    border-radius: .2rem;
+    outline: 0;
+    width: 300px;
+    height: 40px;
+    padding: 1rem;
+}
